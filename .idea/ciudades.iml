@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/ciudades/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/ciudades/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/ciudades/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/ciudades/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/laravel/serializable-closure" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/laravel/sail" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/laravel/sanctum" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/facade/ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/facade/flare-client-php" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/asm89/stack-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/facade/ignition-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/fruitcake/laravel-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/polyfill-php81" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/polyfill-iconv" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/http-client-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/ciudades/vendor/phar-io/manifest" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
