@@ -1,8 +1,8 @@
 
     <h1>Hola esto es para editar </h1>
 
-    @foreach($ciudades as $ciudad)
-        <p>{{($ciudad->toString())}}</p>
+{{--    @foreach($ciudades as $ciudad)--}}
+        <p>{{$ciudad->toString()}}</p>
         <form action="editar" method="get">
             <input type="hidden" name="id" value="{{$ciudad->id}}">
             <input type="hidden" name="metro" value="{{$ciudad->metro}}">
@@ -17,5 +17,7 @@
         <a href="editar?id={{$ciudad->id}}&metro=1">Metro sí</a>
         <a href="editar?id={{$ciudad->id}}&metro=0">Metro no</a>
         <p>-------------------------------</p>
-    @endforeach
+        <br>
+        <a href="listar"><strong>Volver</strong></a>
+{{--    @endforeach--}}
 

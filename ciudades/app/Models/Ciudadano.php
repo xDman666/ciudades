@@ -10,4 +10,9 @@ class Ciudadano extends Model
     use HasFactory;
 
     protected $guarded = [];
+
+    public function ciudad()
+    {
+        return $this->belongsTo(Ciudad::class);
+    }
 }

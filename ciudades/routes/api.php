@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\CiudadanoController;
 use App\Http\Controllers\Ciudadcontroller;
+use App\Models\Ciudad;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -21,4 +23,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get("listar", [Ciudadcontroller::class, "listar"]);
 Route::post("agregar", [Ciudadcontroller::class, "store"]);
-Route::get("editar ", [Ciudadcontroller::class, "editar"]);
+Route::get("editar", [Ciudadcontroller::class, "editar"]);
+
+Route::get("ciudadanos/{id}",[Ciudadcontroller::class, "listarCiudadanos"]);
+Route::post("ciudadanos/add", [CiudadanoController::class, "store"]);

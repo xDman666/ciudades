@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Ciudad;
 use Illuminate\Http\Request;
+use PHPUnit\Framework\Exception;
 
 class CiudadController extends Controller
 {
@@ -47,6 +48,20 @@ class CiudadController extends Controller
                 ]);
             }
         }
-        return view("editar", ["ciudades" => Ciudad::all()]);
+        return view("editar", ["ciudad" => Ciudad::find($_GET["id"])]);
+    }
+
+    public function listarCiudadanos($id){
+        try {
+            $ciudadanos= Ciudad::find($id)->ciudadanos;
+            if($ciudadanos) {
+                return view("ciudadanos", ['ciudadanos' => $ciudadanos, "id" => $id]);
+            }
+            return redirect("listar");
+        } catch (\Exception $e){
+            return redirect("api/listar");
+        }
+
+
     }
 }

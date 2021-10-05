@@ -18,7 +18,7 @@ class CreateCiudadanosTable extends Migration
             $table->string("nomb");
             $table->string("dni")->unique();
             $table->integer("telefono");
-            $table->foreignId("nombre")->references("nombre")->on("ciudads")->cascadeOnDelete();
+            $table->foreignID("ciudad_id")->constrained()->cascadeOnDelete();
             $table->timestamps();
         });
     }
