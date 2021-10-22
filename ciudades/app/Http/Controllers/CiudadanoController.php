@@ -14,4 +14,5 @@ class CiudadanoController extends Controller
         Ciudadano::create($request->all());
         return redirect("api/ciudadanos/{$request->ciudad_id}");
     }
+
 }

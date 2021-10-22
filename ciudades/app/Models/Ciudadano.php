@@ -15,4 +15,8 @@ class Ciudadano extends Model
     {
         return $this->belongsTo(Ciudad::class);
     }
+
+    public function toString(){
+        return "ID:".$this->id." |  Nombre: ".$this->nomb."  |  DNI:".$this->dni." | Teléfono: ".$this->telefono;
+    }
 }

@@ -1,6 +1,6 @@
 <h1>CIUDADANOS de </h1>
 @foreach($ciudadanos as $ciudadano)
-    <p>{{$ciudadano}}</p>
+    <p>{{$ciudadano->toString()}}</p>
 @endforeach
 
 
